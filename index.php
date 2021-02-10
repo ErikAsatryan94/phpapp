@@ -1,5 +1,5 @@
 <?php
-$link = mysql_connect('${var.rds_endpoint', '${var.db_username}', '${var.db_password');
+$link = mysql_connect('rds_endpoint', 'myuser', 'mypassword');
 if (!$link)
 {
 die('Could not connect: ' . mysql_error());
